@@ -38,6 +38,7 @@ if (YDIV == 'NL Central'):
 if (YDIV == 'NL East'):
     results = ('AL East', 'NL Central','NL West')
 Division = results
+#WIP
 test = df
 test = test[test[['Division']].apply(tuple, 1).isin(Division)]
 
